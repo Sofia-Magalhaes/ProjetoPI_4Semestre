@@ -1,0 +1,22 @@
+ul{
+
+    display:flex;
+    justify-content:space-around;
+    list-style-type:none;
+    align-items:center;
+    padding:12px;
+ 
+}
+
+#oi{
+    padding:15px;
+    align-items:center;
+    text-align: right;
+    
+}
+
+#caixinha
+{
+    text-align: right;
+    padding: 20px;
+}
