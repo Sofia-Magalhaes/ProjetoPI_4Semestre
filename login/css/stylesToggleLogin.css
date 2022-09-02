@@ -22,7 +22,7 @@
     min-height: 80vh;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    box-shadow: rgba(65, 105, 225, 0.3) 0px 2px 8px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -30,7 +30,7 @@
 
 .actionBtns{
     width: 80%;
-    background-color: royalblue;
+    background-color: rgb(65, 105, 225);
     margin: 2em;
     display: flex;
     justify-content: space-between;
