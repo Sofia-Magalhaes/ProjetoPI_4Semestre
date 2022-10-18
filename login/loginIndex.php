@@ -52,7 +52,7 @@ session_start();
                     <!-- Form Logar-->
                     <?php
                     if(isset($_SESSION['nao_autenticado'])):
-                    ?>
+                    ?>    
                     <div class="notification is-danger">
                       <p>ERRO: Usuário ou senha inválidos.</p>
                     </div>

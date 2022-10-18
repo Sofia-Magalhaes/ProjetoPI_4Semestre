@@ -21,6 +21,7 @@ if($row == 1) {
     header('Location: ../usuarios/contratanteCliente/indexContratante.php');
     exit();
 } else {
+    $_SESSION['nao_autenticado'] = true;
     header('Location: loginIndex.php');
     exit();
 }
