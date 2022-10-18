@@ -1,3 +1,9 @@
+<?php
+//session_start();
+include('../../login/verifica_login.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +39,7 @@
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">                    
                     <li class="nav-item"><a class="nav-link" href="#">Perfil</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Vizualizar Vagas</a></li>                
-                    <li class="nav-item"><a class="nav-link" href="#">Sair</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../../login/logout.php">Sair</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>                
                 </ul>
             </div>
@@ -49,7 +55,7 @@
                     <hr class="divider" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 mb-5">Aqui você consiguira achar os melhores serviços para seu problema</p>
+                    <p class="text-white-75 mb-5">Olá, <?php echo $_SESSION['email'];?>. Aqui você consiguira achar os melhores serviços para seu problema</p>
                     <a class="btn btn-primary btn-xl" href="#">Descubra mais</a>
                 </div>
             </div>
