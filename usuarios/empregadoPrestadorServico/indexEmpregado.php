@@ -32,10 +32,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">                    
 
-                    <li class="nav-item"><a class="nav-link" href="#">Solicitação de vagas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Criar Vagas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Perfil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="C:\Users\sofia\OneDrive\Documentos\GitHub\ProjetoPI_4Semestre\index.html">Sair</a></li>                
+                    <li class="nav-item"><a class="nav-link" href="solicitacaoVaga.php">Solicitação de vagas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="criarVaga.php">Criar Vagas</a></li>
+                    <li class="nav-item"><li class="btn btn-primary btn-xl"><a class="nav-link" href="perfil.php">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../../login/logout.php">Sair</a></li>                
                 </ul>
             </div>
         </div>

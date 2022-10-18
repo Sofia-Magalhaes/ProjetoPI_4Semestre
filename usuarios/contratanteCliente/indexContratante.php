@@ -37,10 +37,11 @@ include('../../login/verifica_login.php');
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">                    
-                    <li class="nav-item"><a class="nav-link" href="#">Perfil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Vizualizar Vagas</a></li>                
+                    <li class="nav-item"><a class="nav-link" href="verServicos.php">Ver Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="propostas.php">Propostas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historico.php">Historico</a></li>                            
+                    <li class="nav-item"><a class="nav-link" href="perfil.php">Perfil</a></li>                
                     <li class="nav-item"><a class="nav-link" href="../../login/logout.php">Sair</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>                
                 </ul>
             </div>
         </div>
