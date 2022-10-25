@@ -1,5 +1,6 @@
 <?php
-session_start();
+session_start();    
+include('cadastro.php');
 ?>
 
 <!DOCTYPE html>
@@ -34,18 +35,21 @@ session_start();
                 <button class="moveBtn  ">Criar nova conta</button>
             </div>
             <div class="useForm">
-                <!-- Form Cadastrar-->
-                <form action="" class="form singup signupForm">
-                    <div class="inputGroup">
-                        <input type="text" placeholder="Nome" autocomplete="offf">
+                <!-- Form Cadastrar-->        
+                <form action="loginIndex.php" method="POST" class="form singup signupForm">
+                <label for="name">Nome</label>    
+                <div class="inputGroup">
+                        <input type="text" name="name" id="name" placeholder="Nome" autocomplete="offf">                      
                     </div>
-                    <div class="inputGroup">
-                        <input type="email" placeholder="Email" autocomplete="offf">
+                    <label for="name">Email</label>
+                    <div class="inputGroup">                    
+                        <input type="email" name="email" id="email" placeholder="Email" autocomplete="offf">
                     </div>
-                    <div class="inputGroup">
-                        <input type="password" placeholder="Senha" autocomplete="offf">
+                    <label for="name">Senha</label>
+                    <div class="inputGroup">            
+                        <input type="password" name="password" id="password" placeholder="Senha" autocomplete="offf">
                     </div>
-                    <button type="submit" class="submitBtn">Cadastra-se</button>
+                    <button type="submit" name="submit" id="submit" class="submitBtn">Cadastra-se</button>
                 </form>
                     <!-- Fim Form Cadastrar-->
 

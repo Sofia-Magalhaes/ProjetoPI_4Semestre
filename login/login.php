@@ -10,7 +10,8 @@ if(empty($_POST['email']) || empty($_POST['senha'])) {
 $email = mysqli_real_escape_string($conexao, $_POST['email']);
 $senha = mysqli_real_escape_string($conexao, $_POST['senha']);
 
-$query = "select ID_CLIENTE, EMAIL_CLIENTE from cliente where EMAIL_CLIENTE = '{$email}' and SENHA_CLIENTE = md5('{$senha}')"; 
+
+$query = "select ID_CLIENTE, EMAIL_CLIENTE,NOME_CLIENTE from cliente where EMAIL_CLIENTE = '{$email}' and SENHA_CLIENTE = md5('{$senha}')"; 
 
 $result = mysqli_query($conexao, $query);
  
