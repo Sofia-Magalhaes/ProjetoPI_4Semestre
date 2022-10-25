@@ -1,8 +1,8 @@
 <?php
   include('conexao.php');
+  
 if(isset($_POST['submit']))
 {
-
     $nome = $_POST['name'];
     $email = $_POST['email'];
     $senha = $_POST['password'];
