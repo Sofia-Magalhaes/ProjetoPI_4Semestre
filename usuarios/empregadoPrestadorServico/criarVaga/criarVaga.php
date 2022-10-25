@@ -28,8 +28,22 @@
 
     <!-- Masthead-->
     <header class="masthead">
-    <h1>Criar Vagas</h1>
-     
+    
+    <h1>
+    <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="button">Criar Vagas</button>
+    </div>
+</h2>
+<form action="login.php" class="form login" method="POST">        
+                    <div class="inputGroup">
+                        <input name="email" type="email" placeholder="Email" autofocus="" autocomplete="offf">
+                    </div>
+                    <div class="inputGroup">
+                        <input name="senha" type="password" placeholder="Senha" autocomplete="offf">
+                    </div>
+                    <button type="submit" class="submitBtn">Entrar</button>
+                </form> 
+    
     </header>
    
    
