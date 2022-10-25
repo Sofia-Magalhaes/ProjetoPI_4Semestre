@@ -1,3 +1,8 @@
+<?php
+session_start();
+include('../../login/conexao.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,27 +41,19 @@
                             </div>
                         </div>
                         <div class="inputGroup">
-                            <textarea name="text" cols="40" rows="5" placeholder="Descrição" type="text" name="descricao" id="descricao"></textarea>                           
+                            <input type="text" name="descricao" id="descricao" placeholder="Descrição" autocomplete="offf">
+                            <!-- <textarea type="text" name="descricao" id="descricao" name="descricao" cols="40" rows="5" placeholder="Descrição"></textarea> -->
                         </div>
-
-
-
-                        <button type="submit" name="submit" id="submit" class="submitBtn">Cadastrar</button>
-                        <button type="submit" name="submit" id="submit" class="submitBtn">Cancelar</button>
+                        <div class="row" id=botoes>
+                            <button type="submit" name="submit" id="submit" class="submitBtn">Cadastrar</button>
+                            <button a href="indexEmpregado.php" type="submit" name="submit" id="cancelar" class="submitBtn">Cancelar</button>
+                        </div>
 
                     </form>
                     <!-- Fim Form Criar Vaga-->
-
-
-
-
-
-
-
                 </div>
             </div>
         </div>
-        <script src="js/scriptToggleLogin.js"></script>
     </body>
 
 </html>

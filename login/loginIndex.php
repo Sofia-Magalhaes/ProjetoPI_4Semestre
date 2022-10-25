@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('cadastro.php');
+include('conexao.php');
 ?>
 
 <!DOCTYPE html>
