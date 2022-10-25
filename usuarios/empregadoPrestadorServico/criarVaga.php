@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../../login/conexao.php');
+include('cadastroVaga.php');
 ?>
 
 <!DOCTYPE html>
