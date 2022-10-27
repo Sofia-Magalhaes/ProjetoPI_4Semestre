@@ -8,8 +8,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Vagas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Vagas</a></li>                    
                     <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
                     <li class="nav-item"><a class="nav-link" href="login/loginIndex.php">Entrar</a></li>
                      <li class="nav-item"><a class="nav-link" href="login/loginIndex.php">Cadastrar</a></li> 

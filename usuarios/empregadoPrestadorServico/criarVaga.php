@@ -11,8 +11,8 @@ include('cadastroVaga.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="css/stylesIndex.css">
     <link rel="stylesheet" href="css/formsVaga.css">
+
 </head>
 
 <body>
@@ -39,14 +39,17 @@ include('cadastroVaga.php');
                             <div class="inputGroup">
                                 <input type="text" name="tipoServico" id="tipoServico" placeholder="Tipo de Serviço" autocomplete="offf">
                             </div>
+
                         </div>
+                        <div class="inputGroup">
+                                <input type="text" name="tipoServico" id="tipoServico" placeholder="Tipo de Serviço" autocomplete="offf">
+                            </div>
                         <div class="inputGroup">
                             <input type="text" name="descricao" id="descricao" placeholder="Descrição" autocomplete="offf">
                             <!-- <textarea type="text" name="descricao" id="descricao" name="descricao" cols="40" rows="5" placeholder="Descrição"></textarea> -->
                         </div>
                         <div class="row" id=botoes>
                             <button type="submit" name="submit" id="submit" class="submitBtn">Cadastrar</button>
-                            <button a href="indexEmpregado.php" type="submit" name="submit" id="cancelar" class="submitBtn">Cancelar</button>
                         </div>
 
                     </form>
