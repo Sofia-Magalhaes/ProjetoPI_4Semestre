@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../../login/conexao.php');
+include('cadastroVaga.php');
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +13,7 @@ include('../../login/conexao.php');
     <title>Criar Vagas</title>
     <link rel="stylesheet" href="css/stylesIndex.css">
     <link rel="stylesheet" href="css/formsVaga.css">
+
 </head>
 
 <body>
@@ -39,14 +40,17 @@ include('../../login/conexao.php');
                             <div class="inputGroup">
                                 <input type="text" name="tipoServico" id="tipoServico" placeholder="Tipo de Serviço" autocomplete="offf">
                             </div>
+
                         </div>
+                        <div class="inputGroup">
+                                <input type="text" name="tipoServico" id="tipoServico" placeholder="Tipo de Serviço" autocomplete="offf">
+                            </div>
                         <div class="inputGroup">
                             <input type="text" name="descricao" id="descricao" placeholder="Descrição" autocomplete="offf">
                             <!-- <textarea type="text" name="descricao" id="descricao" name="descricao" cols="40" rows="5" placeholder="Descrição"></textarea> -->
                         </div>
                         <div class="row" id=botoes>
                             <button type="submit" name="submit" id="submit" class="submitBtn">Cadastrar</button>
-                            <button a href="indexEmpregado.php" type="submit" name="submit" id="cancelar" class="submitBtn">Cancelar</button>
                         </div>
 
                     </form>
