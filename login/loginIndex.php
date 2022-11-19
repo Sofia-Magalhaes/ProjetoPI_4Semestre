@@ -36,7 +36,7 @@ include('conexao.php');
             </div>
             <div class="useForm">
                 <!-- Form Cadastrar-->        
-                <form action="loginIndex.php" method="POST" class="form singup signupForm">
+                <form action="login.php" method="POST" class="form singup signupForm">
                 <label for="name">Nome</label>    
                 <div class="inputGroup">
                         <input type="text" name="name" id="name" placeholder="Nome" autocomplete="offf">                      

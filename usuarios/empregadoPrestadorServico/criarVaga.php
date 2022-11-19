@@ -10,7 +10,7 @@ include('../../login/conexao.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Criar Vagas</title>
     <link rel="stylesheet" href="css/stylesIndex.css">
     <link rel="stylesheet" href="css/formsVaga.css">
 </head>
@@ -30,7 +30,7 @@ include('../../login/conexao.php');
                 </div>
                 <div class="useForm">
                     <!-- Form Criar Vaga-->
-                    <form action="criarVaga.php" method="POST" class="form singup signupForm">
+                    <form action="cadastroVaga.php" method="POST" class="form singup signupForm">
                         <div class="row">
                             <div class="inputGroup">
                                 <input type="text" name="nomeVaga" id="nomeVaga" placeholder="Nome da Vaga" autocomplete="offf">
@@ -51,9 +51,15 @@ include('../../login/conexao.php');
 
                     </form>
                     <!-- Fim Form Criar Vaga-->
+
+                    
                 </div>
+                
             </div>
+            
         </div>
+
+       
     </body>
 
 </html>
