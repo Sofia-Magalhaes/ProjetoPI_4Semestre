@@ -32,15 +32,25 @@ session_start();
 
                     <!-- <Input type="search" name="buscar" placeholder="Digite o nome da vaga desejada">
                     <input type="submit" value="Enviar"> -->
-   
+
                     <?php
                     include('get/vagaGET.php');
                     ?>
-               
+
                     <!-- Fim mostrar as Vagas-->
                 </div>
             </div>
         </div>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
     </body>
 
 </html>

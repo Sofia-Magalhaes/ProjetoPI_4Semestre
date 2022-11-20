@@ -24,6 +24,8 @@ include('../../login/verifica_login.php');
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../../css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/solicitacaoVaga.css">
+
 </head>
 
 <body id="page-top">
@@ -48,13 +50,23 @@ include('../../login/verifica_login.php');
         </div>
     </header>
 
-  
+
     </section>
     <!-- Footer-->
     <footer class="bg-light py-5">
         <div class="container px-4 px-lg-5">
             <div class="small text-center text-muted">Projeto Integrador &copy; 2022 - GO SERV</div>
         </div>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

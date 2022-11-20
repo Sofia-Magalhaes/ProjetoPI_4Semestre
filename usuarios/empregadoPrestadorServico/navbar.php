@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../../css/styles.css">
+
 <link rel="stylesheet" href="css/formsVaga.css">
  
  
@@ -14,7 +14,7 @@
 
                     <li class="nav-item"><a class="nav-link" href="solicitacaoVaga.php">Solicitação de vagas</a></li>
                     <li class="nav-item"><a class="nav-link" href="criarVaga.php">Criar Vagas</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-primary btn-xl" href="perfil.php">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="perfil.php">Perfil</a></li>
                     <li class="nav-item"><a class="nav-link btn btn-primary btn-xl" href="../../login/logout.php ">Sair</a></li>                
                 </ul>
             </div>

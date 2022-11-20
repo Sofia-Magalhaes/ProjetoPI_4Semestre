@@ -38,21 +38,21 @@ include('outraProposta.php');
                     <!-- Form Criar Vaga-->
                     <form action="propostaContrato.php" method="POST" class="form singup signupForm">
 
-                        
-                            <label>Mudar Preço</label>
-                            <div class="inputGroup">
-                                <input type="number" name="mudaPreco" id="mudaPreco" placeholder="Novo Preço" autocomplete="offf">
-                            </div>
 
-                            <label>Mudar Data</label>
-                            <div class="inputGroup">
-                                <input type="date" name="mudaData" id="mudaData" placeholder="Nova Data" autocomplete="offf">
-                            </div>
-                        
+                        <label>Mudar Preço</label>
+                        <div class="inputGroup">
+                            <input type="number" name="mudaPreco" id="mudaPreco" placeholder="Novo Preço" autocomplete="offf">
+                        </div>
+
+                        <label>Mudar Data</label>
+                        <div class="inputGroup">
+                            <input type="date" name="mudaData" id="mudaData" placeholder="Nova Data" autocomplete="offf">
+                        </div>
+
 
                         <button href="solicitacaoVaga.php" class="btn btn-primary">Voltar</button>
                         <button class="btn btn-primary" type="submit" name="submit" id="submit" class="submitBtn">Enviar</button>
-                        
+
                     </form>
                     <!-- Fim Form Criar Vaga-->
 
@@ -65,6 +65,17 @@ include('outraProposta.php');
 
             </div>
         </div>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
 
     </body>
 

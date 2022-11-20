@@ -1,10 +1,11 @@
 <?php
-session_start();    
+session_start();
 include('cadastro.php');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,71 +13,82 @@ include('cadastro.php');
     <title>Login</title>
     <link rel="stylesheet" href="css/stylesToggleLogin.css">
 </head>
-<body> 
+
+<body>
+
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="../index.php">Go Serv</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">                    
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
                     </ul>
                 </div>
             </div>
         </nav>
-    <div class="wrapper">
-        <div class="modalForm">
-            <div class="actionBtns">
-                <button class="actionBtn signupBtn">Criar nova conta</button>
-                <button class="actionBtn loginBtn">Entrar</button>
-                <button class="moveBtn  ">Criar nova conta</button>
-            </div>
-            <div class="useForm">
-                <!-- Form Cadastrar-->        
-                <form action="loginIndex.php" method="POST" class="form singup signupForm">
-                <label for="name">Nome</label>    
-                <div class="inputGroup">
-                        <input type="text" name="name" id="name" placeholder="Nome" autocomplete="offf">                      
-                    </div>
-                    <label for="name">Email</label>
-                    <div class="inputGroup">                    
-                        <input type="email" name="email" id="email" placeholder="Email" autocomplete="offf">
-                    </div>                    
-                    <label for="name">Senha</label>
-                    <div class="inputGroup">            
-                        <input type="password" name="password" id="password" placeholder="Senha" autocomplete="offf">
-                    </div>
-                    <button type="submit" name="submit" id="submit" class="submitBtn">Cadastra-se</button>
-                </form>
+        <div class="wrapper">
+            <div class="modalForm">
+                <div class="actionBtns">
+                    <button class="actionBtn signupBtn">Criar nova conta</button>
+                    <button class="actionBtn loginBtn">Entrar</button>
+                    <button class="moveBtn  ">Criar nova conta</button>
+                </div>
+                <div class="useForm">
+                    <!-- Form Cadastrar-->
+                    <form action="loginIndex.php" method="POST" class="form singup signupForm">
+                        <label for="name">Nome</label>
+                        <div class="inputGroup">
+                            <input type="text" name="name" id="name" placeholder="Nome" autocomplete="offf">
+                        </div>
+                        <label for="name">Email</label>
+                        <div class="inputGroup">
+                            <input type="email" name="email" id="email" placeholder="Email" autocomplete="offf">
+                        </div>
+                        <label for="name">Senha</label>
+                        <div class="inputGroup">
+                            <input type="password" name="password" id="password" placeholder="Senha" autocomplete="offf">
+                        </div>
+                        <button type="submit" name="submit" id="submit" class="submitBtn">Cadastra-se</button>
+                    </form>
                     <!-- Fim Form Cadastrar-->
 
                     <!-- Form Logar-->
                     <?php
-                    if(isset($_SESSION['nao_autenticado'])):
-                    ?>    
-                    <div class="notification is-danger">
-                      <p>ERRO: Usuário ou senha inválidos.</p>
-                    </div>
+                    if (isset($_SESSION['nao_autenticado'])) :
+                    ?>
+                        <div class="notification is-danger">
+                            <p>ERRO: Usuário ou senha inválidos.</p>
+                        </div>
                     <?php
                     endif;
                     unset($_SESSION['nao_autenticado']);
                     ?>
-                <form action="login.php" class="form login" method="POST">        
-                    <div class="inputGroup">
-                        <input name="email" type="email" placeholder="Email" autofocus="" autocomplete="offf">
-                    </div>
-                    <div class="inputGroup">
-                        <input name="senha" type="password" placeholder="Senha" autocomplete="offf">
-                    </div>
-                    <button type="submit" class="submitBtn">Entrar</button>
-                </form> 
+                    <form action="login.php" class="form login" method="POST">
+                        <div class="inputGroup">
+                            <input name="email" type="email" placeholder="Email" autofocus="" autocomplete="offf">
+                        </div>
+                        <div class="inputGroup">
+                            <input name="senha" type="password" placeholder="Senha" autocomplete="offf">
+                        </div>
+                        <button type="submit" class="submitBtn">Entrar</button>
+                    </form>
                     <!-- Fim Form Logar-->
+                </div>
             </div>
         </div>
-    </div>
-    <script src="js/scriptToggleLogin.js"></script>
-</body>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+        <script src="js/scriptToggleLogin.js"></script>
+    </body>
+
 </html>
