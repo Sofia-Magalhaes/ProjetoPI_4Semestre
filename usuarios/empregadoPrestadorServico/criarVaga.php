@@ -31,7 +31,7 @@ include('cadastroVaga.php');
                 </div>
                 <div class="useForm">
                     <!-- Form Criar Vaga-->
-                    <form action="cadastroVaga.php" method="POST" class="form singup signupForm">
+                    <form action="criarVaga.php" method="POST" class="form singup signupForm">
                         <div class="row">
                             <div class="inputGroup">
                                 <input type="text" name="nomeVaga" id="nomeVaga" placeholder="Nome da Vaga" autocomplete="offf">
