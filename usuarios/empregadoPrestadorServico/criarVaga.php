@@ -40,11 +40,7 @@ include('cadastroVaga.php');
                             <div class="inputGroup">
                                 <input type="text" name="tipoServico" id="tipoServico" placeholder="Tipo de Serviço" autocomplete="offf">
                             </div>
-
                         </div>
-                        <div class="inputGroup">
-                                <input type="text" name="tipoServico" id="tipoServico" placeholder="Tipo de Serviço" autocomplete="offf">
-                            </div>
                         <div class="inputGroup">
                             <input type="text" name="descricao" id="descricao" placeholder="Descrição" autocomplete="offf">
                             <!-- <textarea type="text" name="descricao" id="descricao" name="descricao" cols="40" rows="5" placeholder="Descrição"></textarea> -->
@@ -56,14 +52,14 @@ include('cadastroVaga.php');
                     </form>
                     <!-- Fim Form Criar Vaga-->
 
-                    
+
                 </div>
-                
+
             </div>
-            
+
         </div>
 
-       
+
     </body>
 
 </html>
