@@ -11,7 +11,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ver Serviços</title>
     <link rel="stylesheet" href="css/stylesIndex.css">
-    <link rel="stylesheet" href="css/formsVaga.css">
+    <link rel="stylesheet" href="css/solicitacaoVaga.css">
 </head>
 
 <body>
@@ -32,18 +32,21 @@ session_start();
                     <!-- <Input type="search" name="buscar" placeholder="Digite o nome da vaga desejada">
                     <input type="submit" value="Enviar"> -->
 
-                    <?php
-                    include('get/vagaGET.php');
-                    ?>
+           
 
-                    <h1>solicitaçao de vagas aparece os contratos que os clientes fizeram com o prestador de serviço, isso de aparecer
-                        a propria vaga criada está errada
-                    </h1>
-               
+                            <?php
+                            include('get/contratoGET.php');
+                            ?>
+
+
+
+
+
                     <!-- Fim mostrar as Vagas-->
                 </div>
             </div>
         </div>
+     
     </body>
 
 </html>

@@ -66,9 +66,6 @@ include('cadastroContrato.php');
                             <button class="btn btn-primary" type="submit" name="submit" id="submit" class="submitBtn">Contratar</button>
                             </form>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>

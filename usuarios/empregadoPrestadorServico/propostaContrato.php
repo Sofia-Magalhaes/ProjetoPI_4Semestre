@@ -1,0 +1,71 @@
+<?php
+session_start();
+include('outraProposta.php');
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Serviços</title>
+    <link rel="stylesheet" href="css/stylesIndex.css">
+    <link rel="stylesheet" href="css/solicitacaoVaga.css">
+</head>
+
+<body>
+
+    <body id="page-top">
+        <?php
+        include('navbar.php');
+        ?>
+
+
+        <div class="wrapper">
+            <div class="modalForm">
+                <div class="actionBtns">
+                    <button class="actionBtn signupBtn">Contraproposta</button>
+                </div>
+
+
+                <!-- <Input type="search" name="buscar" placeholder="Digite o nome da vaga desejada">
+                    <input type="submit" value="Enviar"> -->
+
+                <div class="useForm">
+                    <!-- Form Criar Vaga-->
+                    <form action="propostaContrato.php" method="POST" class="form singup signupForm">
+
+                        
+                            <label>Mudar Preço</label>
+                            <div class="inputGroup">
+                                <input type="number" name="mudaPreco" id="mudaPreco" placeholder="Novo Preço" autocomplete="offf">
+                            </div>
+
+                            <label>Mudar Data</label>
+                            <div class="inputGroup">
+                                <input type="date" name="mudaData" id="mudaData" placeholder="Nova Data" autocomplete="offf">
+                            </div>
+                        
+
+                        <button href="solicitacaoVaga.php" class="btn btn-primary">Voltar</button>
+                        <button class="btn btn-primary" type="submit" name="submit" id="submit" class="submitBtn">Enviar</button>
+                        
+                    </form>
+                    <!-- Fim Form Criar Vaga-->
+
+
+                </div>
+
+
+
+                <!-- Fim mostrar as Vagas-->
+
+            </div>
+        </div>
+
+    </body>
+
+</html>
