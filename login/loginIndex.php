@@ -12,6 +12,7 @@ include('cadastro.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/stylesToggleLogin.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -28,6 +29,8 @@ include('cadastro.php');
                 </div>
             </div>
         </nav>
+
+        
         <div class="wrapper">
             <div class="modalForm">
                 <div class="actionBtns">

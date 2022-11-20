@@ -41,8 +41,8 @@ include('../../login/verifica_login.php');
                     <hr class="divider" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 mb-5">Olá, <?php echo $_SESSION['email']; ?>. Aqui você consiguira achar os melhores serviços para seu problema</p>
-                    <a class="btn btn-primary btn-xl" href="#">Descubra mais</a>
+                    <p class="text-white-75 mb-5">Olá, aqui você conseguirá achar os melhores serviços para seu problema</p>
+                    <a class="btn btn-primary btn-xl" href="servicos.php">Serviços</a>
                 </div>
             </div>
         </div>

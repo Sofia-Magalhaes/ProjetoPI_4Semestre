@@ -16,8 +16,8 @@
                 <li class="nav-item"><a class="nav-link" href="propostas.php">Propostas</a></li>
                 <!-- <li class="nav-item"><a class="nav-link btn btn-primary btn-xl">mudar de cor</a></li> -->
                 
-                <li class="nav-item"><a class="nav-link btn btn-primary btn-xl" href="perfil2.php">Perfil</a></li>
-                <li class="nav-item"><a class="nav-link btn btn-primary btn-xl" href="../../login/logout.php">Sair</a></li>
+                <li class="nav-item"><a class="nav-link" href="perfil2.php">Perfil</a></li>
+                <li class="nav-item"><a class="nav-link" href="../../login/logout.php">Sair</a></li>
             </ul>
         </div>
     </div>
