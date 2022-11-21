@@ -6,7 +6,7 @@
 
     if($vagaGET = mysqli_query($conexao,
     "SELECT * FROM vagas")){
-      while($linha = mysqli_fetch_assoc($vagaGET)){
+      while($linha = mysqli_fetch_assoc($vagaGET)){        
         echo '
         <div class="row">
         <div class="col-sm-12">
