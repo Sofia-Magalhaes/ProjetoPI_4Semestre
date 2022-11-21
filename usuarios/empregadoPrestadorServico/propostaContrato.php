@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('outraProposta.php');
+include('update/outraProposta.php');
 
 ?>
 
@@ -50,8 +50,8 @@ include('outraProposta.php');
                         </div>
 
 
-                        <button href="solicitacaoVaga.php" class="btn btn-primary">Voltar</button>
-                        <button class="btn btn-primary" type="submit" name="submit" id="submit" class="submitBtn">Enviar</button>
+                        <a href="solicitacaoVaga.php" class="btn btn-primary">Voltar</a>
+                        <a href="update/outraProposta.php?status=4"> <button class="btn btn-primary" type="submit" name="submit" id="submit" class="submitBtn">Enviar</button></a>
 
                     </form>
                     <!-- Fim Form Criar Vaga-->

@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -27,14 +28,14 @@ session_start();
                 <div class="actionBtns">
                     <button class="actionBtn signupBtn">Ver Serviço</button>
                 </div>
-                <div action="vagaGET.php" method="GET">
+                <div action="solicitacaoVaga.php" method="GET">
 
                     <!-- <Input type="search" name="buscar" placeholder="Digite o nome da vaga desejada">
                     <input type="submit" value="Enviar"> -->
 
 
-
-                    <?php
+                    
+                    <?php                    
                     include('get/contratoGET.php');
                     ?>
 

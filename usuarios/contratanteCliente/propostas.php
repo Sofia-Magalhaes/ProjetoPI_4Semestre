@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../../login/conexao.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -31,14 +31,11 @@ include('../../login/conexao.php');
                 </div>
                 <!-- <div class="useForm"> -->
                 <!-- Mostrar as Vagas-->
-                <p>Sete dark e light </p>
-                </p>
-                <p><button>CLICA</button></p>
-                <div>
-                    <select id="theme" onChange="mudarTema()">
-                        <option value="light">Claro</option>
-                        <option value="dark">Escuro</option>
-                    </select>
+                <div action="propostas.php" method="GET">
+                    <?php
+                    include('get/repostaContraGET.php');
+                    ?>
+
                 </div>
                 <!-- Fim mostrar as Vagas-->
                 <!-- </div> -->

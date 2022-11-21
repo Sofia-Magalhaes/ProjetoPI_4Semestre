@@ -29,10 +29,11 @@ session_start();
                     <button class="actionBtn signupBtn">Serviço em andamento</button>
                 </div>
                 <div>
+                <div action="verServicos.php" method="GET">
+                    <?php
+                    include('get/contratoGETContra.php');
+                    ?>
 
-
-
-                    <!-- Fim mostrar as Vagas-->
                 </div>
             </div>
         </div>

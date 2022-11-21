@@ -8,12 +8,14 @@ if(isset($_POST['submit']))
     $pagamentoContrato = $_POST['pagamentoContrato'];
     $data = $_POST['data'];
     $endereco = $_POST['endereco'];
+    $status = 3;
 
     
 
-    $result = mysqli_query($conexao, "INSERT INTO contratos (DESCRICAO_CONTRATO, PAGAMENTO_CONTRATO, DATA_CONTRATO, ENDERECO_CONTRATO) 
-    VALUES ('$descricaContrato', '$pagamentoContrato', '$data','$endereco')");
+    $result = mysqli_query($conexao, "INSERT INTO contratos (DESCRICAO_CONTRATO, PAGAMENTO_CONTRATO, DATA_CONTRATO, ENDERECO_CONTRATO, STATUS_CONTRATO) 
+    VALUES ('$descricaContrato', '$pagamentoContrato', '$data','$endereco', $status)");
 
 }
 ?>
+
 

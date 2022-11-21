@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('cadastroContrato.php');
+include('update/cadastroContrato.php');
 
 
 ?>
@@ -63,7 +63,7 @@ include('cadastroContrato.php');
                                 </div>                            
                             </p>
                             <a href="servicos.php" class="btn btn-primary">Sair</a>
-                            <button class="btn btn-primary" type="submit" name="submit" id="submit" class="submitBtn">Contratar</button>
+                            <a href="update/cadastroContrato.php?status=3"><button class="btn btn-primary" type="submit" name="submit" id="submit" class="submitBtn">Contratar</button></a>
                             </form>
                         </div>
                     </div>
