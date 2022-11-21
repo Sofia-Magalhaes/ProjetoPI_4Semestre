@@ -100,6 +100,7 @@ session_start();
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
+    
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- SimpleLightbox plugin JS-->
