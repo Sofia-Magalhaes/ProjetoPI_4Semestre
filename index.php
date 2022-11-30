@@ -96,11 +96,23 @@ session_start();
             <div class="vw-plugin-top-wrapper"></div>
         </div>
     </div>
+    
+    <script>
+    function darkMode() {
+    if (document.body.style.backgroundColor == "black") {
+    document.body.style.backgroundColor = "white";
+    } else {
+    document.body.style.backgroundColor = "black";
+    }
+    console.log(document.body.style.backgroundColor); // ctrl + j and you can see which mode you're in
+    }
+    </script>
+
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
-    
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- SimpleLightbox plugin JS-->

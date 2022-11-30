@@ -48,7 +48,7 @@ include('../../login/verifica_login.php');
         </div>
     </header>
 
-  
+
     </section>
     <!-- Footer-->
     <footer class="bg-light py-5">
@@ -57,15 +57,26 @@ include('../../login/verifica_login.php');
         </div>
 
         <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
-    </div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-  </script>
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script>
+            function darkMode() {
+                if (document.body.style.backgroundColor == "black") {
+                    document.body.style.backgroundColor = "white";
+                } else {
+                    document.body.style.backgroundColor = "black";
+                }
+                console.log(document.body.style.backgroundColor); // ctrl + j and you can see which mode you're in
+            }
+        </script>
+
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -11,7 +11,7 @@ include('cadastroVaga.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar Vagas</title>
-    <link rel="stylesheet" href="css/stylesIndex.css">
+    <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="css/solicitacaoVaga.css">
 
 </head>
@@ -58,16 +58,28 @@ include('cadastroVaga.php');
             </div>
 
         </div>
+
+        <script>
+            function darkMode() {
+                if (document.body.style.backgroundColor == "black") {
+                    document.body.style.backgroundColor = "white";
+                } else {
+                    document.body.style.backgroundColor = "black";
+                }
+                console.log(document.body.style.backgroundColor); // ctrl + j and you can see which mode you're in
+            }
+        </script>
+
         <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
-    </div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-  </script>
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
 
     </body>
 

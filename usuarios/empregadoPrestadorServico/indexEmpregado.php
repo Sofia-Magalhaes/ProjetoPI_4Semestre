@@ -81,6 +81,18 @@ include('../../login/verifica_login.php');
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+    <script>
+            function darkMode() {
+                if (document.body.style.backgroundColor == "black") {
+                    document.body.style.backgroundColor = "white";
+                } else {
+                    document.body.style.backgroundColor = "black";
+                }
+                console.log(document.body.style.backgroundColor); // ctrl + j and you can see which mode you're in
+            }
+        </script>
 </body>
 
 </html>

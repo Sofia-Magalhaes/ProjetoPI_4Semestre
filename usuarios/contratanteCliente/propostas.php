@@ -41,6 +41,17 @@ session_start();
                 <!-- </div> -->
             </div>
         </div>
+
+        <script>
+            function darkMode() {
+                if (document.body.style.backgroundColor == "black") {
+                    document.body.style.backgroundColor = "white";
+                } else {
+                    document.body.style.backgroundColor = "black";
+                }
+                console.log(document.body.style.backgroundColor); // ctrl + j and you can see which mode you're in
+            }
+        </script>
         <div vw class="enabled">
             <div vw-access-button class="active"></div>
             <div vw-plugin-wrapper>
