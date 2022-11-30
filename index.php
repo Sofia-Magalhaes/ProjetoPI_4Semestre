@@ -43,7 +43,7 @@ session_start();
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 mb-5">Site criado com o objetivo de oferecer contratações de serviços gerais
                     </p>
-                    <a class="btn btn-primary btn-xl" href="#about">Descubra mais</a>
+                    <a class="btn btn-primary btn-xl" href="#services">Descubra mais</a>
                 </div>
             </div>
         </div>
